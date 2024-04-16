@@ -1,0 +1,73 @@
+.container-flex {
+  max-width: 800px;
+  margin: 0 auto;
+}
+.cards {
+  /* занимает все пространство высоты 
+    height: 100vh;*/
+  height: 300px;
+
+  background-color: aqua;
+  display: flex;
+  /* раскинуть по разным углам */
+  justify-content: space-between;
+  /*  justify-content: space-around;*/
+  /* разместить в начало блока */
+  justify-content: flex-start;
+  /* в конец блока */
+  justify-content: flex-end;
+  /* в ценнтр */
+  justify-content: center;
+  /* ряд 
+  flex-direction: row;*/
+  flex-direction: column;
+  /* выравнивание по главной оси */
+  align-items: center;
+  align-items: stretch;
+  gap: 50px;
+}
+.csrd {
+  border: 3px solid blueviolet;
+  background-color: yellow;
+  padding: 6px 10px;
+  margin-right: 30px;
+}
+
+/* .card:not(:last-child){ */
+
+.navigathion {
+  max-width: 800px;
+  margin: 0 auto;
+}
+.blocks {
+  height: 100px;
+
+  background-color: green;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  align-items: center;
+  gap: 20px;
+}
+
+.block {
+  border: 3px solid yellowgreen;
+  background-color: rgb(29, 83, 29);
+  padding: 6px 10px;
+  margin-right: 10px;
+  color: wheat;
+}
+.form {
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.form2{
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items:center;
+  gap: 20px;
+}
